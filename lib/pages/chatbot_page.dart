@@ -27,7 +27,7 @@ class _ChatbotPageState extends State<ChatbotPage> {
   }
 
   Future<String> getChatbotResponse(String prompt) async {
-    const apiKey = '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'; // replace with your actual key
+    const apiKey = ''; // replace with your actual key
     const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
     final response = await http.post(
